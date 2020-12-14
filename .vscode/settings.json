@@ -1,0 +1,9 @@
+{
+  "eslint.workingDirectories": [
+    ".",
+    "packages/api",
+    "packages/app",
+    "packages/routes",
+    "packages/types"
+  ]
+}

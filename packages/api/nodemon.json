@@ -1,0 +1,24 @@
+{
+  "watch": [
+    "src"
+  ],
+  "verbose": true,
+  "execMap": {
+    "ts": "ts-node"
+  },
+  "env": {
+    "NODE_ENV": "development",
+    "AWS_S3_ENDPOINT": "http://localhost:4566",
+    "ORIGIN": "http://localhost:3000",
+    "PORT": 8080,
+    "AUTH0_API_AUDIENCE": "https://knowledge-workbench.dev.plural.ai",
+    "AUTH0_DOMAIN": "pluralai.eu.auth0.com",
+    "PG_DATABASE": "knowledge_workbench",
+    "PG_HOST": "localhost",
+    "PG_PORT": 5432,
+    "PG_USER": "plural",
+    "PG_PASSWORD": "password",
+    "SLACK_WEBHOOK": "http://localhost:8091"
+  },
+  "ext": "ts,json"
+}

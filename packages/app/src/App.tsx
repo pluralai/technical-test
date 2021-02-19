@@ -2,7 +2,7 @@ import React from 'react'
 import useFile from './data/useFile'
 
 const App = () => {
-  const { data, loading } = useFile('test.xlsx')
+  const { data, loading } = useFile('test.csv')
 
   if (loading) {
     return (
